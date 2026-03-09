@@ -1145,8 +1145,14 @@ function updateMemberlist_(selection, rad_nummer, radInfo, grd, allMembers, spre
   for (let i = 0; i < membersMultipleMailinglists.length; i++) {
     //Leta upp medlemmen i listan övar alla medlemmar
     const obj = allMembers.find(obj => obj.member_no === membersMultipleMailinglists[i].member_no);
-    membersInAList.push(obj);
     //console.log(obj);
+    if(obj === undefined){
+      //Medlemmen i e-postlistan saknas i listan över alla medlemmar
+      console.warn("Medlem " + membersMultipleMailinglists[i].member_no + " hittades inte i listan över alla medlemmar");
+    }
+    else {
+      membersInAList.push(obj);
+    }
   }
 
   const mlrd = getMedlemslistorRubrikData_();
