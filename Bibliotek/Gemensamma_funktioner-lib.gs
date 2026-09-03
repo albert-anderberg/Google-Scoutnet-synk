@@ -739,7 +739,7 @@ function fetchScoutnetMembers_(forceUpdate, fetchWaitingMembers) {
                                         'country', 'contact_mobile_phone', 'contact_home_phone', 'contact_mothers_name',
                                         'contact_mobile_mum', 'contact_telephone_mum', 'contact_fathers_name', 'contact_mobile_dad',
                                         'contact_telephone_dad', 'contact_leader_interest', 'prev_term', 'prev_term_due_date',
-                                        'current_term', 'current_term_due_date', 'avatar_updated', 'avatar_url'];
+                                        'current_term', 'current_term_due_date', 'avatar_updated', 'avatar_url', 'latest_police_check', 'pc_course_89'];
   
   //Dessa attributvärden ska användas som gemener för bättre jämförelser
   const variabel_lista_lowercase = ['email', 'contact_email_mum', 'contact_email_dad', 'contact_alt_email', 'extra_emails'];

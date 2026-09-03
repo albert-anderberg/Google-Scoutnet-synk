@@ -1370,7 +1370,9 @@ function getMedlemslistorRubrikData_() {
     {"apiName": "dagar_som_medlem", "svName": "Antal dagar som medlem i kåren"},
     {"apiName": "primar_samma_anhorig_epost", "svName": "Primär e-post som anhörigs e-post"},
     {"apiName": "anhoriga_fornamn", "svName": "Anhöriga förnamn"},
-    {"apiName": "anhoriga_fornamn_om_epost", "svName": "Anhöriga förnamn om e-post"}
+    {"apiName": "anhoriga_fornamn_om_epost", "svName": "Anhöriga förnamn om e-post"},
+    {"apiName": "latest_police_check", "svName": "Registerutdrag"},
+    {"apiName": "pc_course_89", "svName": "Trygga möten"}
   ];
 
   return mlrd;
